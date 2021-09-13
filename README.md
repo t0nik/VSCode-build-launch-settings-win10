@@ -22,7 +22,7 @@ Possible launch options are:
 1. Creating .vscode folder, insert tasks.json and launch.json in the .vscode folder
 2. Inserting .vscode\\\tasks.json and .vscode\\\launch.json in a *new folder*
 3. Do following tasks every time you want to create .cpp files in a new directory
-    - Copy the *new folder*
+    - Copy and rename the *new folder*
     - **Open the *folder*** in VSCode
     - Create .cpp files
     - Build and run the program
