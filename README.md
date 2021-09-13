@@ -19,10 +19,10 @@ Possible launch options are:
 - Debug  (Debug program in VSCode)
 
 ### My strategy:
-0. Creating .vscode folder, 
-1. Inserting .vscode\\\tasks.json and .vscode\\\launch.json in a folder
-2. Do following tasks every time you want to create .cpp files in a new directory
-  - Copy the folder
-  - **Open the folder** in VSCode
-  - Create .cpp files in newly copied folder
-  - Build and run the program
+1. Creating .vscode folder, 
+2. Inserting .vscode\\\tasks.json and .vscode\\\launch.json in a folder
+3. Do following tasks every time you want to create .cpp files in a new directory
+    - Copy the folder
+    - **Open the folder** in VSCode
+    - Create .cpp files in newly copied folder
+    - Build and run the program
