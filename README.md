@@ -2,7 +2,7 @@
 Hey, these are my settings for compiling, linking and launching .cpp files.
 You can use them after configuring a GCC compiler and adding c++ extension.
 
-If you configure VSCode for the first time, I refer you to:
+If you are configuring VSCode for the first time, I refer you to:
 https://code.visualstudio.com/docs/languages/cpp
 
 ### tasks.json
