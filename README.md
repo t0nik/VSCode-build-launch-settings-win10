@@ -10,19 +10,24 @@ This file is used to run a build task. (compiling+linking)
 Remember to change the path to the compiler if it doesn't match.
 
 ### launch.json
-This file is used to launch the program.
-Choose the option from the bottom bar in VSCode after debugging (F5) once. 
-Default option is Launch.  
+This file is used to launch and debug the program.
+Choose the option from the blue bottom bar in VSCode after debugging (F5) once. 
+Default option is Launch.
+Remember to change the path to the debugger if it doesn't match.  
 
 Possible launch options are:
 - Launch (Launch program in windows terminal)
 - Debug  (Debug program in VSCode)
 
 ### My strategy:
-1. Creating .vscode folder, insert tasks.json and launch.json in the .vscode folder
-2. Inserting .vscode\\\tasks.json and .vscode\\\launch.json in a *new folder*
-3. Do following tasks every time you want to create .cpp files in a new directory
+1. Download .zip file with code
+2. Create .vscode folder, extract tasks.json and launch.json in the .vscode folder
+3. Insert .vscode\tasks.json and .vscode\launch.json in a *new folder*
+4. Do following tasks every time you want to create .cpp files in a new directory
     - Copy and rename the *new folder*
     - **Open the *folder*** in VSCode
     - Create .cpp files
     - Build and run the program
+
+### Troubleshooting:
+Try restarting VSCode, open your *folder* again.

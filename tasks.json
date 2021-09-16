@@ -4,18 +4,18 @@
 		{
 			"type": "cppbuild",
 			"label": "C/C++: g++.exe compile active file",
-			"command": "C:\\Program Files\\mingw64\\bin\\g++.exe", // Make sure to change this if you need to
+			"command": "C:\\Program Files\\mingw64\\bin\\g++.exe", // Change the path to compiler if needed
 			"args": [
 				"-g",
 				"${file}",
 				"-o",
 				"${fileDirname}\\${fileBasenameNoExtension}.exe",
-				"-std=c++17",		// Choose the language standard, for example (-std=c++11, -std=c++14, -std=c++17 -std=c++2a)
-				"-pedantic-errors", // Using these args to treat warnings more seriously
-				"-Wall",			// *
-				"-Wextra",			// *
-				"-Weffc++",			// *
-				"-Wsign-conversion" // *
+				"-std=c++17",		// Choose the language standard, compatible with your GCC compiler version
+				"-pedantic-errors",	// Using these args to treat warnings more seriously
+				"-Wall",			//
+				"-Wextra",			//
+				"-Weffc++",			//
+				"-Wsign-conversion"	// 
 			],
 			"options": {
 				"cwd": "${fileDirname}"

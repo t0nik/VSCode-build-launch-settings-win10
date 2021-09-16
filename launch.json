@@ -30,7 +30,7 @@
             "environment": [],
             "console": "internalTerminal",
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\Program Files\\mingw64\\bin\\gdb.exe",
+            "miDebuggerPath": "C:\\Program Files\\mingw64\\bin\\gdb.exe", // Change the path to debugger if needed
             "setupCommands": [
                 {
                     "description": "Włącz formatowanie kodu dla gdb",
